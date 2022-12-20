@@ -1,0 +1,141 @@
+:root {
+  --brand-color: #2f303a;
+  --color-selected: #2196f3;
+  --secundary-color: white;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: #757575;
+  font-size: 14px;
+}
+
+.principal-color {
+  background-color: var(--brand-color);
+}
+
+.principal-title {
+  color: var(--secundary-color);
+  font-size: 44px;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
+  width: 696px;
+  height: 120px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.webstudio {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  color: var(--color-selected);
+  text-decoration: none;
+}
+
+.list-style {
+  list-style-type: none;
+}
+
+.link {
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.17em;
+  color: black;
+}
+
+.link:hover,
+.link:focus,
+.link:active,
+.active-page {
+  color: var(--color-selected);
+}
+.principal {
+  height: 600px;
+}
+
+.principal-button {
+  width: 261px;
+  height: 50px;
+  margin-left: 40%;
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875em;
+  background-color: var(--color-selected);
+  color: var(--secundary-color);
+  border-radius: 4px;
+  border: none;
+}
+.subtitle-sections {
+  color: black;
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+.subtitle-products {
+  color: black;
+  line-height: 1.17;
+  font-weight: 700;
+}
+.section-team {
+  background-color: #f5f4fa;
+  margin: 0;
+}
+.subtitle-team {
+  color: black;
+  font-size: 16px;
+  line-height: 1.1875;
+  font-weight: 500;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.1875;
+  font-weight: 400;
+}
+
+.link-footer {
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.17em;
+  color: white;
+  font-style: normal;
+}
+.link-footer:hover,
+.link-footer:focus,
+.link-footer:active {
+  color: var(--color-selected);
+}
+.adress {
+  color: white;
+  font-style: normal;
+}
+.buttons-portfolio {
+  background-color: #f5f4fa;
+  color: #212121;
+  font-size: 16px;
+  line-height: 1, 625em;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.buttons-portfolio:hover,
+.buttons-portfolio:focus,
+.buttons-portfolio:active {
+  color: var(--secundary-color);
+  background-color: var(--color-selected);
+}
+.subtitles-proyects {
+  color: black;
+  font-size: 18px;
+  line-height: 2em;
+  font-weight: 700;
+}
+.type-proyect {
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 400;
+}
